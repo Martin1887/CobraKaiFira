@@ -2,7 +2,6 @@
 
   --------------- */
 
-@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&family=Barlow:wght@400;700;900&display=swap");
      .white-theme
      html[data-theme="light"] {
          --ls-primary-background-color: white;
@@ -437,7 +436,7 @@ mark {
   z-index: 0;
   height: auto;
   padding: 15px 0 0 0;
-  font-family: Fira Code, Monaco, Menlo, Consolas, "COURIER NEW", monospace;
+  font-family: "Fira Code Retina", "Fira Mono", Monaco, Menlo, Consolas, "COURIER NEW", monospace;
   max-width: 86vw;
   background-color: transparent;
 }
@@ -562,7 +561,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Fira Code, Menlo, Monaco, Consolas, Liberation Mono, Courier New,
+  font-family: "Fira Code Retina", "Fira Mono", Menlo, Monaco, Consolas, Liberation Mono, Courier New,
     monospace;
   font-variant-ligatures: normal;
 }
@@ -602,7 +601,7 @@ iframe {
   content: "Query: ";
   color: var(--ls-page-inline-code-color);
   font-size: 85%;
-  font-family: Menlo, Monaco, Consolas, Liberation Mono, Courier New, monospace;
+  font-family: "Fira Code Retina", "Fira Mono", Monaco, Consolas, Liberation Mono, Courier New, monospace;
   display: inline;
 }
 .custom-query .opacity-70 {
@@ -639,7 +638,7 @@ iframe {
   border-bottom: 1px solid var(--ls-title-text-color);
   width: calc(var(--main-container-width) - 95px);
   font-size: 38px;
-  font-family: Barlow;
+  font-family: "Fira Sans";
   font-weight: 600;
   color: var(--ls-primary-text-color);
 }
@@ -690,7 +689,7 @@ h1.title {
 .ls-block h2 {
   font-size: 1.6em !important;
   margin: 0.5em 0 0em 0;
-  font-family: Barlow;
+  font-family: "Fira Sans";
   font-weight: 700;
 }
 .ls-block h3 {
@@ -800,7 +799,7 @@ a.tag[href*="audio"]:after {
 /*==================================================*/
 
 .timestamp {
-  font-family: consolas, monospace;
+  font-family: "Fira Mono", consolas, monospace;
   color: var(--text-accent);
 }
 
@@ -878,7 +877,7 @@ a.external-link:after {
 /* === page refs====*/
 /*==================================================*/
 .page-reference.nested .page-ref {
-  font-family: Cairo;
+  font-family: "Fira Sans";
 }
 .page-reference .text-gray-500 {
   opacity: 0.6;
@@ -994,7 +993,7 @@ html {
     pointer-events: none;
     content: "⇲";
   font-size: 14px;
-  font-family: arial;
+  font-family: "Fira Sans";
     position: absolute;
     height: 12px;
     width: 12px;
